@@ -132,13 +132,14 @@ http://localhost:3000
 Add project screenshots here.
 
 ### Dashboard
-![Dashboard](screenshots/dashboard.png)
+![Dashboard]("C:\Users\priya\OneDrive\Pictures\Screenshots\dashboard.png")
 
 ### Inventory Management
-![Inventory](screenshots/inventory.png)
+![Inventory]("C:\Users\priya\OneDrive\Pictures\Screenshots\Inventory.png")
 
 ### Order Management
-![Orders](screenshots/orders.png)
+![Orders](<img width="1547" height="510" alt="orders" src="https://github.com/user-attachments/assets/2b708d1c-be99-4582-b452-13e6a5c37aa5" />
+)
 
 ---
 
@@ -171,7 +172,7 @@ Add project screenshots here.
 
 GitHub: https://github.com/Priyadarshini-metre
 
-LinkedIn: 
+LinkedIn: https://www.linkedin.com/in/priyadarshini-metre-1b354b2a7?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BFmIhRrxcQjWNblGK%2BPfwAA%3D%3D
 
 ---
 
