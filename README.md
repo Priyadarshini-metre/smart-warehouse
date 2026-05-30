@@ -127,22 +127,6 @@ http://localhost:3000
 
 ---
 
-## 📸 Screenshots
-
-Add project screenshots here.
-
-### Dashboard
-![Dashboard]("C:\Users\priya\OneDrive\Pictures\Screenshots\dashboard.png")
-
-### Inventory Management
-![Inventory]("C:\Users\priya\OneDrive\Pictures\Screenshots\Inventory.png")
-
-### Order Management
-![Orders](<img width="1547" height="510" alt="orders" src="https://github.com/user-attachments/assets/2b708d1c-be99-4582-b452-13e6a5c37aa5" />
-)
-
----
-
 ## 🎯 Learning Outcomes
 
 - Full Stack Development
