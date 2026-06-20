@@ -130,6 +130,43 @@ body {
   margin-bottom: 24px;
 }
 
+.priority-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 18px;
+  background: linear-gradient(135deg, rgba(17, 24, 39, 0.94), rgba(59, 130, 246, 0.96));
+  color: white;
+  border-radius: 16px;
+  padding: 18px 20px;
+  margin-bottom: 24px;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.18);
+}
+
+.priority-title {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  opacity: 0.8;
+  margin-bottom: 4px;
+}
+
+.priority-copy {
+  font-size: 15px;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.priority-pill {
+  background: rgba(255, 255, 255, 0.16);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 8px 14px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
 .stat-card {
   background: white;
   border-radius: 14px;
@@ -296,6 +333,16 @@ tr:hover td {
   font-weight: 600;
 }
 
+.priority {
+  background: #ede9fe;
+  color: #6d28d9;
+}
+
+.neutral {
+  background: #f3f4f6;
+  color: #4b5563;
+}
+
 .premium {
   background: #fef9c3;
   color: #ca8a04;
@@ -341,6 +388,16 @@ tr:hover td {
   outline: none;
   border-color: #6366f1;
   background: white;
+}
+
+.form-hint {
+  font-size: 13px;
+  line-height: 1.5;
+  color: #6b7280;
+  background: #f8fafc;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 12px 14px;
 }
 
 .submit-btn {
@@ -397,6 +454,48 @@ tr:hover td {
 .notification.warning {
   background: #fef9c3;
   color: #ca8a04;
+}
+
+@media (max-width: 1100px) {
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .content-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .priority-banner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 720px) {
+  .app {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    position: static;
+    width: 100%;
+    height: auto;
+  }
+
+  .main {
+    margin-left: 0;
+    padding: 18px;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .topbar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
 }
 
 .notification.error {
